@@ -15,7 +15,10 @@ Currently, this app assumes the user knows the **TOTAL** value of each ingredien
 
 In this example (as seen in the screenshot below) our jar of peanut butter is 16oz total. The values in the "Nutrition Facts" table show "per serving". We take the **Total Fat** value of 16g, and multiply it by the "**X** servings per container", and get **Fat = 224g**, the number we add into the calculator. 
 
-*\*NOTE: These values may alarm you (e.g. "224g Fat for peanut butter), but remember, we divide the total number by serving size at the end, so the final numbers should be closer to expected values!*
+<img width="361" alt="peanutbutter" src="https://github.com/user-attachments/assets/d39f0a9e-553e-494e-8481-8449c8dfc682">
+
+
+*\*NOTE: These values may alarm you (e.g. "224g Fat" for peanut butter??), but remember, we divide the total number by serving size at the end, so the final numbers should be closer to expected values!*
 
 # Example Recipe: Chocolate Covered Peanut Butter Protein Bars
 ## Ingredients
@@ -31,3 +34,10 @@ In this example (as seen in the screenshot below) our jar of peanut butter is 16
 
 Serving Size = 32 bars (pieces)
 
+<img width="898" alt="recipe" src="https://github.com/user-attachments/assets/881875ce-0fe0-4f85-8370-65d45b993778">
+
+
+# Potential Improvements
+1. Add ingredient amount calculation (1 cup vs 2 cups, etc)
+2. Add serving size calculation (so the user doesn't have to know total amount of nutritional value per ingredient)
+3. Have user enter all ingredients first, and then prompt for nutritional values based on provided ingredient list ("enter ingredients: oats, peanut butter, honey, etc", then "enter 'Fat' for 'oats': ", instead of "ingredient 1, enter nutritional value for ingredient 1")
