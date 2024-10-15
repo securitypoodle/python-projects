@@ -1,6 +1,8 @@
 # Nutrition Facts Calculator
 This application calculates nutrition information for any recipe. 
 
+<img width="898" alt="recipe" src="https://github.com/user-attachments/assets/881875ce-0fe0-4f85-8370-65d45b993778">
+
 It takes user input for an ingredient, and then asks the user to provide nutritional information for that ingredient. Once all ingredients are entered, the user provides the desired serving size, and then the app provides the recipe's nutritional information per serving.
 
 ## Current Nutritional Information Calculated
@@ -33,8 +35,6 @@ In this example (as seen in the screenshot below) our jar of peanut butter is 16
 - 1 Teaspoon Coconut Oil
 
 Serving Size = 32 bars (pieces)
-
-<img width="898" alt="recipe" src="https://github.com/user-attachments/assets/881875ce-0fe0-4f85-8370-65d45b993778">
 
 
 # Potential Improvements
