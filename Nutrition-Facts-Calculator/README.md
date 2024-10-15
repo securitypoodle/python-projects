@@ -22,7 +22,7 @@ In this example (as seen in the screenshot below) our jar of peanut butter is 16
 
 # Example Recipe: Chocolate Covered Peanut Butter Protein Bars
 ## Ingredients
-- 2 1/4 cups of Rolled Oats (blended into flour)
+- 2 1/2 cups of Rolled Oats (blended into flour)
 - 1/2 cup Vanilla Protein Powder
 - Salt (to taste)
 - 16oz Creamy Peanut Butter
@@ -38,6 +38,7 @@ Serving Size = 32 bars (pieces)
 
 
 # Potential Improvements
-1. Add ingredient amount calculation (1 cup vs 2 cups, etc)
-2. Add serving size calculation (so the user doesn't have to know total amount of nutritional value per ingredient)
-3. Have user enter all ingredients first, and then prompt for nutritional values based on provided ingredient list ("enter ingredients: oats, peanut butter, honey, etc", then "enter 'Fat' for 'oats': ", instead of "ingredient 1, enter nutritional value for ingredient 1")
+1. Add Calories to calculation
+2. Add ingredient amount calculation (1 cup vs 2 cups, etc)
+3. Add serving size calculation (so the user doesn't have to know total amount of nutritional value per ingredient)
+4. Have user enter all ingredients first, and then prompt for nutritional values based on provided ingredient list ("enter ingredients: oats, peanut butter, honey, etc", then "enter 'Fat' for 'oats': ", instead of "ingredient 1, enter nutritional value for ingredient 1")
