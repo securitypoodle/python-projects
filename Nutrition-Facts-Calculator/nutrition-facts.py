@@ -44,11 +44,11 @@ def run_calculation():
     recipe = get_recipe_and_nutrient_data()
     total_nutrients = calc_nutritional_info(recipe)
 
-    serving_size = float(input(f'Enter serving size (in number of pieces): '))
+    serving_size = float(input(f'Enter total number of servings (in number of pieces): '))
 
     print('##################')
     print('##################')
-    print(f'Total Nutrition Facts per serving ({serving_size} pieces): ')
+    print(f'Total Nutrition Facts per serving (1 piece of {serving_size} total pieces): ')
     for nutrient, value in total_nutrients.items():
         print(f'- {nutrient.capitalize()}: {value/serving_size:.2f}')
     print('##################')
